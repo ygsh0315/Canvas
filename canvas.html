@@ -10,12 +10,14 @@
   body {text-align: center;}
   section {display: inline-block; margin: 50px;}
   canvas {background: url(./img/grid.gif); box-shadow: 0 0 5px #ccc;}
+  #pat1 {display:none;}
 </style>
 <body>
   <h1>Canvas</h1>
     <section>
+      <img src="img/pattern1.png" alt="패턴1" id="pat1">
       <h2>canvas</h2>
-      <canvas width="600" height = "400"></canvas>
+      <canvas width = "600" height = "400"></canvas>
     </section>
     <section>
       <h2>사각형</h2>
@@ -37,24 +39,58 @@
       <h2>2021-12-09과제</h2>
       <canvas id="canvas5" width = "600" height="400"></canvas>
       <!--그림자 적용된 예쁜 삼각형-->
-    </section>
-    <h2>선형그라디언트1</h2>
+    </section>   
     <section>
+    <h2>선형그라디언트1</h2>
       <canvas id="canvas6" width = "600" height="400"></canvas>
     </section>
   </section>
-  <h2>선형그라디언트2</h2>
   <section>
+    <h2>선형그라디언트2</h2>    
     <canvas id="canvas7" width = "600" height="400"></canvas>
   </section>
-  <h2>원형그라디언트2</h2>
   <section>
+    <h2>원형그라디언트2</h2>  
     <canvas id="canvas8" width = "600" height="400"></canvas>
-  </section>
-  <h2>2021-12-10과제</h2>
+  </section> 
   <section>
+    <h2>2021-12-10과제</h2>
     <canvas id="canvas9" width = "600" height="400"></canvas>
   </section>  
+
+  <section>
+      <h2>패턴1</h2>
+      <canvas id="canvas10" width="600" height="400"></canvas>
+  </section>
+
+  <section>
+      <h2>패턴2</h2>
+      <canvas id="canvas11" width = "600" height="400"></canvas>
+  </section>
+
+  <section>
+      <h2>LineCap</h2>
+      <canvas id="canvas12" width = "600" height="400"></canvas>
+  </section>
+  <section>
+    <h2>LineJoin</h2>
+    <canvas id="canvas13" width = "600" height="400"></canvas>
+  </section>
+  <section>
+    <h2>ClearRect</h2>
+    <canvas id="canvas14" width = "600" height="400"></canvas>
+  </section>
+  <section>
+    <h2>Fill</h2>
+    <canvas id="canvas15" width = "600" height="400"></canvas>
+  </section>
+  <section>
+    <h2>2021-12-14과제</h2>
+    <canvas id="canvas16" width = "600" height="400"></canvas>
+    <!--1. 예쁜 다각형 도형 2개 드로잉
+        2. 한개 도형은 면 색 예쁘게 지정
+        3. 다른 한개 도형은 선색 예쁘게 지정-->
+  </section>
     <script src="js/canvas.js"></script>
 </body>
 </html>
